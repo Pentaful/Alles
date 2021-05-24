@@ -1,0 +1,35 @@
+p{
+	color:lightgray;
+}
+p:hover{
+	color:black;
+}
+body{
+	background: darkGray;
+}
+.Fragen{
+	margin-right:1300px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding: 3px;
+	font-size: 40px;
+	background-color: gray;
+}
+#Begrüßung{
+	font-size: 70px;
+}
+.Buttons{
+	font-size:20px;
+}
+.Btn123{
+	font-size:20px;
+}
+/* h1:only-child | für "only" 1 objekt
+	h1:first-child | für erstes "h1" objekt
+	h1:last-child | für letztes "h1" objekt
+#(link):link{
+	color:blue;	|farbe vom reflink
+}
+#(link):visited {
+	color:red;   |farbe, nachdem man sie besucht hat
+	} */

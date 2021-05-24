@@ -1,0 +1,281 @@
+<DOCTYPE html>
+<html>
+<head>
+</head>
+	<body onload="AutoRL(1200000)"> 
+		<div id="div1">
+			<h1 class="Sachen" onclick="Secret()">Plan</h1>
+			<button onclick="dark()" class="Buttons">Klicke hier, um zwischen Dark- und Lightmode zu wechseln</button>
+		</div>
+			<style>
+			#dark_light{
+				font-size: 50%;
+			}
+			.Tage{
+				font-size: 50%;
+			}
+			#RL{
+				font-size: 50%;
+			}
+			#Stundenplan{
+				font-size: 50%;
+			}
+			.Wochentag{
+				color:green;
+			}
+			.Pause{
+				color:green;
+			}
+			#table{
+				font-size:45px;
+			}
+			._ {
+				font-size: 15%;
+			}
+			.linkbtn{
+				font-size: 90%;
+				border-radius: 60px;
+				border-style: double;
+		    border-color: inherit;
+				cursor: pointer;
+			}
+			}
+			body{
+  			padding: 25px;
+  			font-size: 25px;
+				background-color: white;
+				color: black;
+			}
+
+			.dark-mode {
+  			background-color: black;
+  			color: white;
+			}
+			.Buttons{
+				font-size: 70%;
+				border-radius: 60px;
+				border-style: double;
+				border-color: inherit;
+				cursor: pointer;
+		  }
+			</style>
+<script>
+						////////////////////////////////////////////////////////////////////////STOPPED HERE!!!
+	document.body.style.fontSize = 5 + "5px"
+			function Secret () {
+				document.getElementById("uber").innerHTML = "uwu";}
+				function  AutoRL(t) {
+				setTimeout("location.reload(true);",t)
+				}
+			function discord() {
+				window.location.href='https://discord.io/g8g8'
+			}
+			function padlet() {
+				window.location.href='https://padlet.com/schnauer/g8'
+			}
+			//i++;
+			function dark() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+	/*	var	i = 0
+				function dark_light_switch(){
+					if (i == 0) {
+						document.body.style.background="white";
+						var x = document.getElementsByClassName("Sachen")[0].style.color='black'
+						i++;}
+						else {
+							document.body.style.background="black";
+							var x = document.getElementsByClassName("Sachen")[0].style.color='white'
+							i--;
+						}}*/
+						////////////////////////////////////////////////////////////////////////STOPPED HERE!!!
+
+
+				switch(new Date().getDay()) {
+				case 0:
+				document.write('<p class="Sachen">Heute ist Sonntag. Heute brauchst du du noch nichts.<br> Wenn du f&uuml;r morgen packen willst, brauchst du deine Sachen f&uuml;r: <br> Englisch; PoWi; Mathe und Latein/Franze.</p>')
+					break;
+				case 1:
+				document.write('<p class="Sachen">Heute ist Montag. <br> Du brauchst du deine Sachen f&uuml;r: <br> Englisch; PoWi; Mathe und Latein/Franze. <br> Wenn du f&uuml;r morgen packen willst, brauchst du deine Sachen f&uuml;r: <br> Geschichte/Bili; Englisch; Mathe und Religion.</p>')
+					break;
+				case 2:
+				document.write('<p class="Sachen">Heute ist Dienstag. <br> Du brauchst du deine Sachen f&uuml;r: <br> Geschichte/Bili; Englisch; Mathe und Religion. <br> Wenn du f&uuml;r morgen packen willst, brauchst du deine Sachen f&uuml;r: <br> Deutsch; Erdkunde; Sport; Musik und Mathe.</p>')
+					break;
+				case 3:
+				document.write('<p class="Sachen">Heute ist Mittwoch. <br> Du brauchst du deine Sachen f&uuml;r: <br> Deutsch; Erdkunde; Sport; Musik und Mathe. <br> Wenn du f&uuml;r morgen packen willst, brauchst du deine Sachen f&uuml;r: <br> Englisch; Chemie; Musik; Mathe; Deutsch und Physik.</p>')
+				break;
+				case 4:
+				document.write('<p class="Sachen">Heute ist Donnerstag. <br> Du brauchst du deine Sachen f&uuml;r: <br> Englisch; Chemie; Musik; Mathe; Deutsch und Physik. <br> Wenn du f&uuml;r morgen packen willst, brauchst du deine Sachen f&uuml;r: <br> WP; Chemie und Latein/Franz&ouml;sisch.</p>')
+					break;
+				case 5:
+				document.write('<p class="Sachen">Heute ist Freitag. <br> Du brauchst du deine Sachen f&uuml;r:<br> WP; Chemie und Latein/Franz&ouml! <br>  Für morgen musst du nichts pachen! ')
+					break;
+				case 6:
+				document.write('<p class="Sachen">Heute ist Samstag. <br> Also, chill ma´ F&uuml;r morgen musst du nichts packen! Chill!')
+					break;
+			}
+</script>
+		<p id="Sachen">ps. Die Seite l&auml;dt alle zwei Minuten neu.<p/>
+			<h1 id="Sachen">Jetzt folgt ein Stundenplan!</h1>
+		<table border="20" id="table" >
+				<tr>
+					<td class="Wochentag">Wochentag</td>
+						<td class="Wochentag">Montag</td>
+							<td class="Wochentag">Dienstag</td>
+						<td class="Wochentag">Mittwoch</td>
+							<td class="Wochentag">Donnerstag</td>
+						<td class="Wochentag">Freitag</td>
+					</tr>
+					<tr class="_">
+						<td>____________</td>
+						<td>___________________</td>
+						<td>____________</td>
+						<td>_______________</td>
+						<td>____________</td>
+						<td>___________________</td>
+					</tr>
+					<tr>
+						<td>1.Std</td>
+							<td>Englisch</td>
+								<td>Geschichte/Bili</td>
+							<td>Deutsch</td>
+								<td>Englisch</td>
+							<td>WP</td>
+						</tr>
+						<tr>
+							<td>2.Std</td>
+								<td>Englisch</td>
+									<td>Geschichte/Bili</td>
+								<td>Erdkunde</td>
+									<td>Chemie</td>
+								<td>WP</td>
+							</tr>
+							<tr class="_">
+								<td>____________</td>
+								<td>___________________</td>
+								<td>____________</td>
+								<td>_______________</td>
+								<td>____________</td>
+								<td>___________________</td>
+							</tr>
+							<tr>
+								<td class="Pause">Pause</td>
+									<td class="Pause">Pause</td>
+										<td class="Pause">Pause</td>
+									<td class="Pause">Pause</td>
+										<td class="Pause">Pause</td>
+									<td class="Pause">Pause</td>
+								</tr>
+								<tr class="_">
+									<td>____________</td>
+									<td>___________________</td>
+									<td>____________</td>
+									<td>_______________</td>
+									<td>____________</td>
+									<td>___________________</td>
+								</tr>
+								<tr>
+									<td>3.Std</td>
+										<td>PoWi</td>
+											<td>Englisch</td>
+										<td>Sport</td>
+											<td>Musik</td>
+										<td>Chemie</td>
+									</tr>
+									<tr>
+										<td>4.Std</td>
+											<td>Mathe</td>
+												<td>Mathe</td>
+											<td>Sport</td>
+												<td>Mathe</td>
+											<td>Latein/Franz&ouml;sisch</td>
+										</tr>
+										<tr class="_">
+											<td>____________</td>
+											<td>___________________</td>
+											<td>____________</td>
+											<td>_______________</td>
+											<td>____________</td>
+											<td>___________________</td>
+										</tr>
+										<tr>
+											<td class="Pause">Pause</td>
+												<td class="Pause">Pause</td>
+													<td class="Pause">Pause</td>
+												<td class="Pause">Pause</td>
+													<td class="Pause">Pause</td>
+												<td class="Pause">Pause</td>
+											</tr>
+											<tr class="_">
+												<td>____________</td>
+												<td>___________________</td>
+												<td>____________</td>
+												<td>_______________</td>
+												<td>____________</td>
+												<td>___________________</td>
+											</tr>
+											<tr>
+												<td>5.Std</td>
+													<td>Latein/Franz&ouml;sisch</td>
+														<td>Religion</td>
+													<td>Musik</td>
+														<td>Deutsch</td>
+													<td>Latein/Franz&ouml;sisch</td>
+												</tr>
+												<tr>
+													<td>6.Std</td>
+														<td>Latein/Franz&ouml;sisch</td>
+															<td>Religion</td>
+														<td>Mathe</td>
+															<td>Deutsch</td>
+														<td>/</td>
+													</tr>
+													<tr class="_">
+														<td>____________</td>
+														<td>___________________</td>
+														<td>____________</td>
+														<td>_______________</td>
+														<td>____________</td>
+														<td>___________________</td>
+													</tr>
+													<tr>
+														<td class="Pause">45.Min Pause</td>
+															<td class="Pause">45.Min Pause</td>
+																<td class="Pause">45.Min Pause</td>
+															<td class="Pause">45.Min Pause</td>
+																<td class="Pause">45.Min Pause</td>
+															<td class="Pause">45.Min Pause</td>
+														</tr>
+														<tr class="_">
+															<td>____________</td>
+															<td>___________________</td>
+															<td>____________</td>
+															<td>_______________</td>
+															<td>____________</td>
+															<td>___________________</td>
+														</tr>
+														<tr>
+																<td>7.Std</td>
+																<td>Profil/AG's</td>
+																	<td>AG's</td>
+																<td>AG's</td>
+																	<td>Physik</td>
+																<td>/</td>
+															</tr>
+														<tr>
+																<td>8.Std</td>
+															<td>Profil/AG's</td>
+																<td>AG's</td>
+															<td>AG's</td>
+																<td>Physik</td>
+															<td>/</td>
+														</tr>
+												</table>
+<iframe src="https://discord.com/widget?id=760109953494679563&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe><br>
+								<button onclick="padlet()" class="Buttons">Und hier, um auf Padlet zu gelangen</button>
+								<br>
+								<br>
+
+   </body>
+ </html>

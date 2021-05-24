@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <title>Latein Quiz</title>
+  <h2>Willkommen zum Latein Quiz!</h2>
+</head>
+<body>
+	<p>Steht "clāmā" im... A = Infinitiv; B = Imperativ oder C = Indikativ?</p>
+<button onclick="F0()">A</button>
+<button onclick="F1()">B</button>
+<button onclick="F2()">C</button>
+<script>
+	function DekUrl () {
+	window.location='http://lateinweb.net/index.php?option=com_content&view=article&id=15%3Adeklination&catid=15%3Aformen&Itemid=26'
+	}
+	function F0() {
+	  alert("Das ist falsch. \"clamare\" wäre der Infinitv. (Achte auf die Endungen und Deklinationen)");
+	}
+	function F1() {
+	  alert("Das ist korrekt.");
+	}
+	function F2() {
+	  alert("Das ist falsch. Der Indikativ (Oder Imperfekt) ist eine Zeitform des Verbs in der Vergangenheit.");
+	} //-------------------------------------------------------------------------------------------------------------
+	function F3() {
+	 if (window.confirm("Das ist falsch. Wenn du ok drückst, wirst du zu einer Erklärung weitergeleitet. (Dauert sonst zu lange)")) {
+		window.location.href='http://lateinweb.net/index.php?option=com_content&view=article&id=15%3Adeklination&catid=15%3Aformen&Itemid=26'
+	 }
+	}
+	function F4() {
+	 if (window.confirm("Das ist falsch. Wenn du ok drückst, wirst du zu einer Erklärung weitergeleitet. (Dauert sonst zu lange)")) {
+		window.location.href='http://lateinweb.net/index.php?option=com_content&view=article&id=15%3Adeklination&catid=15%3Aformen&Itemid=26'
+	}
+   }
+	function F5() {
+	  alert("Das ist korrekt.");
+	} //-------------------------------------------------------------------------------------------------------------
+	function F6() {
+	  alert("Das ist falsch. Unter den Antworten ist ein Knopf, wo du dir die Deklinationen angucken kannst.");
+	}
+	function F7() {
+	  alert("Das ist falsch. Unter den Antworten ist ein Knopf, wo du dir die Deklinationen angucken kannst.");
+	}
+	function F8() {
+	  alert("Das ist korrekt.");
+	} //-------------------------------------------------------------------------------------------------------------
+	function F9() {
+	  alert("Das ist korrekt.");
+	}
+	function F10() {
+	  if (window.confirm('Das ist falsch. Wenn du ok drückst, wirst du zu einer Erklärung weitergeleitet. (Dauert sonst zu lange) '))
+	{
+	window.location.href='https://www.lateinlehrer.net/grammatik/partizip-ppp-und-ppa#:~:text=Ein%20PPP%20hei%C3%9Ft%3A%20laudatus%20%E2%80%93%20gelobt%3B%20Ein%20PPA,manchmal%20unterschiedlich%20genannt.%20Man%20meint%20aber%20dasselbe%20damit%3A';
+	};
+	}
+	function F11() {
+	  alert("Das ist falsch! Indirekte Rede gibt es im Lateinischen! Schau dir (bitte) nochmal indirekte Rede im Lateinischen an.");
+	}
+</script>
+	<p>In welcher Deklination ist "domina"?</p>
+<button onclick="F3()">i-Deklination</button>
+<button onclick="F4()">o-Deklination</button>
+<button onclick="F5()">a-Deklination</button>
+<br><br>
+	<p>Wie wird ein Hauptsatz im Lateinischen in der indirekten Rede ausgedrückt?</p>
+<button id="button" onclick="F9()">Mit dem ACI</button>
+<button onclick="F10()">Mit dem PPP (Partizip Perfekt Passiv)</button>
+<button onclick="F11()">Indirekte Rede gibt es im Lateinischen nicht!</button>
+	<p id="subtitle3">Frage4</p>
+</body>
+</html>

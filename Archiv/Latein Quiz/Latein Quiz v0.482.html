@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Latein Quiz</title>
+  <h1 id=Begrüßung>Willkommen zum Latein Quiz!</h1>
+</head>
+<body>
+  <style>
+  p{
+  	color:lightgray;
+  }
+  p:hover{
+  	color:black;
+  }
+  body{
+  	background: darkGray;
+  }
+  .Fragen{
+  	font-size: 40px;
+  	background-color: gray;
+  }
+
+  #Begrüßung{
+  	font-size: 70px;
+  }
+  .Buttons{
+  	font-size:20px;
+  }
+  .Btn123{
+  	font-size:20px;
+  }
+  #Packhilfe{
+    font-size: 30px;
+  }
+  </style>
+	<p class=Fragen>Steht clama im... A = Infinitiv; B = Imperativ oder C = Indikativ?</p>
+<button onclick=F0() class=Btn123>Infinitiv</button>
+<button onclick=F1() class=Btn123>Imperativ</button>
+<button onclick=F2() class=Btn123>Indikativ</button>
+<script>
+	function DekUrl () {
+	window.location='http://lateinweb.net/index.php?option=com_content&view=article&id=15%3Adeklination&catid=15%3Aformen&Itemid=26'
+	}
+	function F0() {
+	  alert(unescape("Das ist falsch. \clamare\ w\u00e4re der Infinitv. (Achte auf die Endungen und Deklinationen)"));
+	}
+	function F1() {
+	  alert("Das ist korrekt.");
+	}
+	function F2() {
+	  alert("Das ist falsch. Der Indikativ (Oder Imperfekt) ist eine Zeitform des Verbs in der Vergangenheit.");
+	} //-------------------------------------------------------------------------------------------------------------
+	function F3() {
+	 if (window.confirm("Das ist falsch. Wenn du auf \OK\ dr\u00fcckst, wirst du zu einer Erkl\u00e4rung weitergeleitet. (Dauert sonst zu lange)")) {
+		window.location.href='http://lateinweb.net/index.php?option=com_content&view=article&id=15%3Adeklination&catid=15%3Aformen&Itemid=26'
+	 }
+	}
+	function F4() {
+	 if (window.confirm("Das ist falsch. Wenn du \OK\ dr\u00fcCckst, wirst du zu einer Erkl\u00e4rung weitergeleitet. (Dauert sonst zu lange)")) {
+		window.location.href='http://lateinweb.net/index.php?option=com_content&view=article&id=15%3Adeklination&catid=15%3Aformen&Itemid=26'
+	}
+   }
+	function F5() {
+	  alert("Das ist korrekt.");
+	} //-------------------------------------------------------------------------------------------------------------
+	function F6() {
+	  alert("Das ist falsch. Unter den Antworten ist ein Knopf, wo du dir die Deklinationen angucken kannst.");
+	}
+	function F7() {
+	  alert("Das ist falsch. Unter den Antworten ist ein Knopf, wo du dir die Deklinationen angucken kannst.");
+	}
+	function F8() {
+	  alert("Das ist korrekt.");
+	} //-------------------------------------------------------------------------------------------------------------
+	function F9() {
+	  alert("Das ist korrekt.");
+	}
+	function F10() {
+	  if (window.confirm('Das ist falsch. Wenn du OK dr\u00fcckst, wirst du zu einer Erkl\u00e4rung weitergeleitet. (Dauert sonst zu lange) '))
+	{
+	window.location.href='https://www.lateinlehrer.net/grammatik/partizip-ppp-und-ppa#:~:text=Ein%20PPP%20hei%C3%9Ft%3A%20laudatus%20%E2%80%93%20gelobt%3B%20Ein%20PPA,manchmal%20unterschiedlich%20genannt.%20Man%20meint%20aber%20dasselbe%20damit%3A';
+	};
+	}
+	function F11() {
+	  alert("Das ist falsch! Indirekte Rede gibt es im Lateinischen! Schau dir nochmal indirekte Rede im Lateinischen an.");
+	} //-------------------------------------------------------------------------------------------------------------
+  function F12() {
+	 if (window.confirm("Das ist falsch. (Tipp: Es ist sehr wichtig, die Endungen zu lernen. Klicke auf \OK\, um dir die Endungen anzusehen.)")) {
+		window.location.href='http://lateinweb.net/index.php?option=com_content&view=article&id=15%3Adeklination&catid=15%3Aformen&Itemid=26'
+	}
+}
+  function F13() {
+   if (window.confirm("Das ist falsch. (Tipp: Es ist sehr wichtig, die Endungen zu lernen. Klicke auf \OK\, um dir die Endungen anzusehen.)")) {
+    window.location.href='http://lateinweb.net/index.php?option=com_content&view=article&id=15%3Adeklination&catid=15%3Aformen&Itemid=26'
+  }
+}
+  function F14() {
+    alert("Das ist korrekt.");
+  }
+</script>
+	<p class=Fragen>In welcher Deklination ist domina?</p>
+<button onclick=F3() class=Buttons>i-Deklination</button>
+<button onclick=F4() class=Buttons>o-Deklination</button>
+<button onclick=F5() class=Buttons>a-Deklination</button>
+<br><br>
+	<p class=Fragen class=Buttons>Wie wird ein Hauptsatz im Lateinischen in der indirekten Rede ausgedr&uuml;ckt?</p>
+<button id=button onclick=F9() class=Buttons>Mit dem ACI</button>
+<button onclick=F10() class=Buttons>Mit dem PPP (Partizip Perfekt Passiv)</button>
+<button onclick=F11() class=Buttons>Das gibt es nicht.</button>
+	<p class=Fragen>Was ist die Endung der 3.Person Singular?</p>
+  <button onclick=F12() class=Buttons>-mus</button>
+  <button onclick=F13() class=Buttons>-nt</button>
+  <button onclick=F14() class=Buttons>-t</button>
+  <br><br><br>
+    <a href="Mobile Packhilfe V1.45.html" id="Packhilfe">Klicke hier, um die Packhilfe zu &ouml;ffnen.</a>
+</body>
+</html>

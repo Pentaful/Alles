@@ -1,0 +1,222 @@
+<DOCTYPE html>
+<html>
+<head>
+</head>
+	<body onload="AutoRL(30000)">
+		<div id="div1">
+			<h1 id="uber" onclick="Secret()">Plan</h1>
+			<style>
+			.Tage{
+				font-size: 50%;
+			}
+			#RL{
+				font-size: 50%;
+			}
+			#Stundenplan{
+				font-size: 50%;
+			}
+			.Wochentag{
+				color:yellowgreen;
+			}
+			.Pause{
+				color:green;
+			}
+			#table{
+				font-size:45px;
+			}
+			._ {
+				font-size: 15%;
+			}
+			</style>
+<script>
+	document.body.style.fontSize = 5 + "5px"
+			function Secret () {
+				document.getElementById("uber").innerHTML = "uwu";}
+				function  AutoRL(t) {
+				setTimeout("location.reload(true);",t)
+				}
+				switch(new Date().getDay()) {
+				case 0:
+				document.write("Heute ist Sonntag. Heute brauchst du du noch nichts.<br> Wenn du f&uuml;r morgen packen willst, brauchst du deine Sachen f&uuml;r: <br> Englisch; Musik; Mathe und Latein/Franze.")
+					break;
+				case 1:
+				document.write("Heute ist Montag. <br> Du brauchst du deine Sachen f&uuml;r: <br> Englisch; Musik; Mathe und Latein/Franze. <br> Wenn du f&uuml;r morgen packen willst, brauchst du deine Sachen f&uuml;r: <br> Sport; Englisch; Mathe und Religion.")
+					break;
+				case 2:
+				document.write("Heute ist Dienstag. <br> Du brauchst du deine Sachen f&uuml;r: <br> Sport; Englisch; Mathe und Religion. <br> Wenn du f&uuml;r morgen packen willst, brauchst du deine Sachen f&uuml;r: <br> Deutsch; PoWi; Bili/Geschichte und Mathe.")
+					break;
+				case 3:
+				document.write("Heute ist Mittwoch. <br> Du brauchst du deine Sachen f&uuml;r: <br> Deutsch; PoWi; Bili/Geschichte und Mathe. <br> Wenn du f&uuml;r morgen packen willst, brauchst du deine Sachen f&uuml;r: <br> Erdkunde; Musik; Deutsch; Englisch und Physik.")
+				break;
+				case 4:
+				document.write("Heute ist Donnerstag. <br> Du brauchst du deine Sachen f&uuml;r: <br> Erdkunde; Musik; Deutsch; Englisch und Physik. <br> Wenn du f&uuml;r morgen packen willst, brauchst du deine Sachen f&uuml;r: <br> WP; Latein/Franze und Chemie.")
+					break;
+				case 5:
+				document.write("Heute ist Freitag. <br> Du brauchst du deine Sachen f&uuml;r:<br> WP; Latein/Franze und Chemie! <br>  Morgen musst du nichts pachen! Chill! ")
+					break;
+				case 6:
+				document.write("Heute ist Samstag. <br> Also, chill ma' <br> Morgen musst du nichts packen! Chill!")
+					break;
+			}
+</script>
+		<p>ps. Die Seite l&auml;dt alle 30 Sekunden neu!<p/>
+			<h1>Jetzt folgt ein Stundenplan!</h1>
+		<table border="20" id="table" >
+				<tr>
+					<td class="Wochentag">Wochentag</td>
+						<td class="Wochentag">Montag</td>
+							<td class="Wochentag">Dienstag</td>
+						<td class="Wochentag">Mittwoch</td>
+							<td class="Wochentag">Donnerstag</td>
+						<td class="Wochentag">Freitag</td>
+					</tr>
+					<tr class="_">
+						<td>____________</td>
+						<td>___________________</td>
+						<td>____________</td>
+						<td>_______________</td>
+						<td>____________</td>
+						<td>___________________</td>
+					</tr>
+					<tr>
+						<td>1.Std</td>
+							<td>Englisch</td>
+								<td>Sport</td>
+							<td>Deutsch</td>
+								<td>/</td>
+							<td>WP</td>
+						</tr>
+						<tr>
+							<td>2.Std</td>
+								<td>Englisch</td>
+									<td>Sport</td>
+								<td>PoWi</td>
+									<td>Erdkunde</td>
+								<td>WP</td>
+							</tr>
+							<tr class="_">
+								<td>____________</td>
+								<td>___________________</td>
+								<td>____________</td>
+								<td>_______________</td>
+								<td>____________</td>
+								<td>___________________</td>
+							</tr>
+							<tr>
+								<td class="Pause">Pause</td>
+									<td class="Pause">Pause</td>
+										<td class="Pause">Pause</td>
+									<td class="Pause">Pause</td>
+										<td class="Pause">Pause</td>
+									<td class="Pause">Pause</td>
+								</tr>
+								<tr class="_">
+									<td>____________</td>
+									<td>___________________</td>
+									<td>____________</td>
+									<td>_______________</td>
+									<td>____________</td>
+									<td>___________________</td>
+								</tr>
+								<tr>
+									<td>3.Std</td>
+										<td>Musik</td>
+											<td>Englisch</td>
+										<td>Geschichte/Bili</td>
+											<td>Musik</td>
+										<td>Latein/Franz&ouml;sisch</td>
+									</tr>
+									<tr>
+										<td>4.Std</td>
+											<td>Mathe</td>
+												<td>Mathe</td>
+											<td>Geschichte/Bili</td>
+												<td>Deutsch</td>
+											<td>Latein/Franz&ouml;sisch</td>
+										</tr>
+										<tr class="_">
+											<td>____________</td>
+											<td>___________________</td>
+											<td>____________</td>
+											<td>_______________</td>
+											<td>____________</td>
+											<td>___________________</td>
+										</tr>
+										<tr>
+											<td class="Pause">Pause</td>
+												<td class="Pause">Pause</td>
+													<td class="Pause">Pause</td>
+												<td class="Pause">Pause</td>
+													<td class="Pause">Pause</td>
+												<td class="Pause">Pause</td>
+											</tr>
+											<tr class="_">
+												<td>____________</td>
+												<td>___________________</td>
+												<td>____________</td>
+												<td>_______________</td>
+												<td>____________</td>
+												<td>___________________</td>
+											</tr>
+											<tr>
+												<td>5.Std</td>
+													<td>Latein/Franz&ouml;sisch</td>
+														<td>Religion</td>
+													<td>Mathe</td>
+														<td>Deutsch</td>
+													<td>Chemie</td>
+												</tr>
+												<tr>
+													<td>6.Std</td>
+														<td>Latein/Franz&ouml;sisch</td>
+															<td>Religion</td>
+														<td>Mathe</td>
+															<td>Englisch</td>
+														<td>Chemie</td>
+													</tr>
+													<tr class="_">
+														<td>____________</td>
+														<td>___________________</td>
+														<td>____________</td>
+														<td>_______________</td>
+														<td>____________</td>
+														<td>___________________</td>
+													</tr>
+													<tr>
+														<td class="Pause">45.Min Pause</td>
+															<td class="Pause">45.Min Pause</td>
+																<td class="Pause">45.Min Pause</td>
+															<td class="Pause">45.Min Pause</td>
+																<td class="Pause">45.Min Pause</td>
+															<td class="Pause">45.Min Pause</td>
+														</tr>
+														<tr class="_">
+															<td>____________</td>
+															<td>___________________</td>
+															<td>____________</td>
+															<td>_______________</td>
+															<td>____________</td>
+															<td>___________________</td>
+														</tr>
+														<tr>
+																<td>7.Std</td>
+																<td>Profil/AG's</td>
+																	<td>AG's</td>
+																<td>AG's</td>
+																	<td>Physik</td>
+																<td>AG's </td>
+															</tr>
+														<tr>
+																<td>8.Std</td>
+															<td>Profil/AG's</td>
+																<td>AG's</td>
+															<td>AG's</td>
+																<td>Physik</td>
+															<td>AG's</td>
+														</tr>
+												</table>
+<a href="Latein Quiz v0.5 ENTW.html" id="Quiz">Klicke hier, um das Latein Quiz zu &ouml;ffnen.</a>
+<br>
+<a href="6523" id="Quiz">Klicke hier, um das Latein Quiz zu &ouml;ffnen (ENTW).</a>
+   </body>
+ </html>
